@@ -4,7 +4,7 @@ This is the repository for the Alexa Skill that allows you to control your Mac V
 
 It allows for interaction such as "Alexa, tell **kickass** to play **Elements by Lindsey Stirling**" which will then query YouTube for [the video](https://www.youtube.com/watch?v=sf6LD2B_kDQ) and tell VLC to play it on your computer.
 
-There is also a skill for querying your own media library if the files are organized well. You can find projects like [Sickbeard]() or [Sonarr]() which can organize your library in a way that this skill will understand.
+There is also a skill for querying your own media library if the files are organized well. You can find projects like [Sickbeard](http://sickbeard.com/) or [Sonarr](https://sonarr.tv/) which can organize your library in a way that this skill will understand.
 
 ### Intent Schema and Interaction Model
 
