@@ -1,0 +1,117 @@
+## Kickass
+
+RelayIntent play {title | song}
+RelayIntent play {title title | song}
+RelayIntent play {title title title | song}
+RelayIntent play {title title title title | song}
+RelayIntent play {title title title title title | song}
+RelayIntent play {title title title title title title | song}
+RelayIntent play {title title title title title title title | song}
+RelayIntent play {title title title title title title title title | song}
+RelayIntent play {title title title title title title title title title | song}
+RelayIntent play {title title title title title title title title title title | song}
+RelayIntent play {title title title title title title title title title title title | song}
+RelayIntent play {title title title title title title title title title title title title | song}
+RelayIntent play {title title title title title title title title title title title title title | song}
+PlaylistIntent start the playlist {name | playlist}
+PlaylistIntent start the playlist {name name| playlist}
+PlaylistIntent start the playlist {name name name| playlist}
+PlaylistIntent start the playlist {name name name name| playlist}
+PlaylistIntent start the playlist {name name name name name| playlist}
+PlaylistIntent start the playlist {name name name name name name| playlist}
+PlaylistIntent start the playlist {name name name name name name name| playlist}
+PlaylistIntent start the playlist {name name name name name name name name| playlist}
+PlaylistIntent start the playlist {name name name name name name name name name| playlist}
+PlaylistIntent start the playlist {name name name name name name name name name name| playlist}
+PlaylistIntent start the playlist {name name name name name name name name name name name| playlist}
+PlaylistIntent shuffle {name | playlist}
+PlaylistIntent shuffle {name name| playlist}
+PlaylistIntent shuffle {name name name| playlist}
+PlaylistIntent shuffle {name name name name| playlist}
+PlaylistIntent shuffle {name name name name name| playlist}
+PlaylistIntent shuffle {name name name name name name| playlist}
+PlaylistIntent shuffle {name name name name name name name| playlist}
+PlaylistIntent shuffle {name name name name name name name name| playlist}
+PlaylistIntent shuffle {name name name name name name name name name| playlist}
+PlaylistIntent shuffle {name name name name name name name name name name| playlist}
+PlaylistIntent shuffle {name name name name name name name name name name name| playlist}
+PlaylistIntent put on some {name name| playlist}
+PlaylistIntent put on some {name name name| playlist}
+PlaylistIntent put on some {name name name name| playlist}
+PlaylistIntent put on some {name name name name name| playlist}
+PlaylistIntent put on some {name name name name name name| playlist}
+PlaylistIntent put on some {name name name name name name name| playlist}
+PlaylistIntent put on some {name name name name name name name name| playlist}
+PlaylistIntent put on some {name name name name name name name name name| playlist}
+PlaylistIntent put on some {name name name name name name name name name name| playlist}
+PlaylistIntent put on some {name name name name name name name name name name name| playlist}
+
+## Media Center 
+
+FullscreenIntent show video
+FullscreenIntent focus
+StopIntent stop
+StopIntent shut up
+StopIntent pause
+StopIntent be quiet
+ResumeIntent resume
+ResumeIntent unpause
+NextIntent next
+NextIntent go to the next song
+NextIntent skip this song
+NextIntent skip
+FastForwardIntent fast forward { thirty | seconds} seconds
+
+
+## Plex
+
+PlexIntent play {title | song}
+PlexIntent play {title title | song}
+PlexIntent play {title title title | song}
+PlexIntent play {title title title title | song}
+PlexIntent play {title title title title title | song}
+PlexIntent play {title title title title title title | song}
+PlexIntent play {title title title title title title title | song}
+PlexIntent play {title title title title title title title title | song}
+PlexIntent play {title title title title title title title title title | song}
+PlexIntent play {title title title title title title title title title title | song}
+RelayIntent play {title title title title title title title title title title title | song}
+RelayIntent play {title title title title title title title title title title title title | song}
+RelayIntent play {title title title title title title title title title title title title title | song}
+
+## The Library
+
+LibraryShuffleIntent shuffle {xxxx | query}
+LibraryShuffleIntent shuffle {xxxx xxxx | query}
+LibraryShuffleIntent shuffle {xxxx xxxx xxxx | query}
+LibraryShuffleIntent shuffle {xxxx xxxx xxxx xxxx | query}
+LibraryShuffleIntent shuffle {xxxx xxxx xxxx xxxx xxxx | query}
+LibraryShuffleIntent shuffle {xxxx xxxx xxxx xxxx xxxx xxxx | query}
+LibraryShuffleIntent shuffle {xxxx xxxx xxxx xxxx xxxx xxxx xxxx | query}
+LibraryShuffleIntent shuffle {xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx | query}
+LibraryLatestIntent play the latest episode of {xxxx|query}
+LibraryLatestIntent play the latest episode of {xxxx xxxx|query}
+LibraryLatestIntent play the latest episode of {xxxx xxxx xxxx|query}
+LibraryLatestIntent play the latest episode of {xxxx xxxx xxxx xxxx|query}
+LibraryLatestIntent play the latest episode of {xxxx xxxx xxxx xxxx xxxx|query}
+LibraryLatestIntent play the latest episode of {xxxx xxxx xxxx xxxx xxxx xxxx|query}
+LibraryLatestIntent play the latest episode of {xxxx xxxx xxxx xxxx xxxx xxxx xxxx|query}
+LibraryLatestIntent play the latest episode of {xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx|query}
+LibraryLatestIntent play the latest episode of {xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx|query}
+
+# my collection
+
+MovieIntent start the movie {xxxx|query}
+MovieIntent start the movie {xxxx xxxx|query}
+MovieIntent start the movie {xxxx xxxx xxxx|query}
+MovieIntent start the movie {xxxx xxxx xxxx xxxx|query}
+MovieIntent start the movie {xxxx xxxx xxxx xxxx xxxx|query}
+MovieIntent start the movie {xxxx xxxx xxxx xxxx xxxx xxxx|query}
+MovieIntent start the movie {xxxx xxxx xxxx xxxx xxxx xxxx xxxx|query}
+MovieIntent start the movie {xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx|query}
+MovieIntent start the movie {xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx|query}
+
+
+
+
+

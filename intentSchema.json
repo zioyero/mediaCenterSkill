@@ -1,0 +1,113 @@
+{
+  "intents": [
+    {
+      "intent": "RelayIntent",
+      "slots": [
+        {
+          "name": "song",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent" : "PandoraIntent",
+      "slots": [
+        {
+          "name" : "station",
+          "type" : "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent" : "StopIntent",
+      "slots": []
+    },
+    {
+      "intent" : "ResumeIntent",
+      "slots": []
+    },
+    {
+      "intent" : "NextIntent",
+      "slots": []
+    },
+    {
+      "intent" : "PreviousIntent",
+      "slots": []
+    },
+    {
+      "intent" : "FullscreenIntent",
+      "slots" : []
+    },
+    {
+      "intent" : "FastForwardIntent",
+      "slots": [
+        {
+          "name" : "seconds",
+          "type" : "number"
+        }
+      ]
+    },
+    {
+      "intent" : "PlaylistIntent",
+      "slots" : [
+        {
+          "name" : "playlist",
+          "type" : "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent" : "VolumeIntent",
+      "slots" : [
+        {
+          "name" : "level",
+          "type" : "NUMBER"
+        }
+      ]
+    },
+    {
+      "intent" : "MovieIntent",
+      "slots" : [
+        {
+          "name" : "query",
+          "type" : "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent" : "LibraryLatestIntent",
+      "slots" : [
+        {
+          "name" : "query",
+          "type" : "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent" : "LibraryShuffleIntent",
+      "slots": [
+        {
+          "name" : "query",
+          "type" : "LITERAL"
+        }
+      ]
+    },
+     {
+      "intent": "LibraryIntent",
+      "slots": [
+       {
+          "name": "query",
+          "type": "LITERAL"
+        },
+        {
+          "name": "season",
+          "type": "NUMBER"
+        },
+       {
+          "name" : "episode",
+          "type" : "NUMBER"
+       }
+      ]
+    }
+  ]
+}
